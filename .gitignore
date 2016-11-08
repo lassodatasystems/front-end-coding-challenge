@@ -1,0 +1,5 @@
+node_modules
+dev/assets/lasso.js
+*.log
+*.pid
+.idea

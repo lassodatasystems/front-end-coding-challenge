@@ -1,0 +1,18 @@
+<div class="panel">
+    <div class="panel-heading">
+        <h2>Todo-List</h2>
+    </div>
+    <div class="panel-body">
+        <ul>
+            <li ng-repeat="todo in todo.items">
+                {{ todo.name }}
+            </li>
+        </ul>
+    </div>
+    <div class="panel-footer">
+        <button type="button"
+        class="btn btn-primary">
+            <span class="glyphicon glyphicon-plus"></span> Add Todo Item
+        </button>
+    </div>
+</div>

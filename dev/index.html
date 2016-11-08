@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Lasso Front-End Coding Challenge</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="/assets/bootstrap.themed.css"/>
+    <link rel="stylesheet"
+          type="text/css"
+          href="/assets/lasso.css"/>
+</head>
+<body>
+    <div ng-cloak ng-controller="Lasso as lasso" class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h1>Welcome to Lasso</h1>
+                    </div>
+                    <div class="panel-body">
+                        Please build a simple to-do list that allows you to add
+                        and delete items.
+                    </div>
+                    <div class="panel-footer">
+                        <i>Don't worry, be happy</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <ls-todo></ls-todo>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/assets/lasso.js"></script>
+</body>
+</html>
